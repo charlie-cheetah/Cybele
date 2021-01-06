@@ -22,14 +22,12 @@ If `pollOnStartup` is set to true, the first polling will happen 1s after startu
 
 #### Autoconfig
 The device will attempt to autoconfigure Home Assistant for state information on the following topics:
-`homeassistant/sensor/miflora_ffffffffffff/ffffffffffff_battery/config`
-`homeassistant/sensor/miflora_ffffffffffff/ffffffffffff_temperature/config`
-`homeassistant/sensor/miflora_ffffffffffff/ffffffffffff_illuminance/config`
-`homeassistant/sensor/miflora_ffffffffffff/ffffffffffff_moisture/config`
-`homeassistant/sensor/miflora_ffffffffffff/ffffffffffff_conductivity/config`
+`homeassistant/sensor/MiLYWSD02MMC/ffffffffffff_temperature/config`
+`homeassistant/sensor/MiLYWSD02MMC/ffffffffffff_humidity/config`
+`homeassistant/sensor/MiLYWSD02MMC/ffffffffffff_battery/config`
 
 #### State
-`cybele/miflora/ffffffffffff/state` provides the current state as JSON
+`cybele/MiLYWSD02MMC/ffffffffffff/state` provides the current state as JSON
 
 ```
 {
@@ -39,7 +37,7 @@ The device will attempt to autoconfigure Home Assistant for state information on
 ```
 
 #### Properties
-`cybele/miflora/ffffffffffff/state` provides the current state as JSON
+`cybele/MiLYWSD02MMC/ffffffffffff/props` provides the current properties as JSON
 
 ```
 {
