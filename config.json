@@ -1,0 +1,80 @@
+{
+  "mqtt": {
+    "url": "mqtt://charlie:smartcheetahpassword@mosquito.krys.info"
+  },
+  "dongles": [
+    {
+      "hciDevice": "hci0",
+      "mode": "le",
+      "services": [],
+      "devices": [
+        {
+          "type": "MiKettleDevice",
+          "friendlyName": "Mi Kettle",
+          "mac": "7C:49:EB:31:C1:53",
+          "productId": 275
+        },
+        {
+          "type": "RoomPresenceBeaconDevice",
+          "friendlyName": "Nut wallet",
+          "mac": "71:BF:37:69:A4:76",
+          "room": "charlie_wallet"
+        },
+        {
+          "type": "RoomPresenceBeaconDevice",
+          "friendlyName": "MiBand 4",
+          "mac": "FA:ED:F2:24:5A:DF",
+          "room": "charlie_miband"
+        },
+        {
+          "type": "RoomPresenceBeaconDevice",
+          "friendlyName": "Honor 8x",
+          "mac": "4C:D1:A1:2C:BF:AC",
+          "room": "soren_phone_realme"
+        },
+        {
+          "type": "RoomPresenceBeaconDevice",
+          "friendlyName": "MiBand 4",
+          "mac": "F3:45:05:89:F2:76",
+          "room": "soren_miband"
+        },
+        {
+          "type": "RoomPresenceBeaconDevice",
+          "friendlyName": "Realme 7 Pro",
+          "mac": "A4:CC:B9:93:64:76",
+          "room": "soren_phone_realme"
+        },
+        {
+          "type": "MiLYWSD02MMCDevice",
+          "friendlyName": "Bathroom clock",
+          "mac": "E7:2E:01:71:0C:F1",
+          "pollOnStartup": true,
+          "pollingInterval": 86400000
+        },
+        {
+          "type": "MiLYWSD03MMCDevice",
+          "friendlyName": "Salon2",
+          "mac": "A4:C1:38:59:13:A0"
+        },
+        {
+          "type": "MiLYWSD03MMCDevice",
+          "friendlyName": "Bedroom",
+          "mac": "A4:C1:38:D2:AE:19"
+        },
+        {
+          "type": "MiLYWSD03MMCDevice",
+          "friendlyName": "Salon1",
+          "mac": "A4:C1:38:FC:13:7A"
+        },
+        {
+          "type": "MiBodyScaleDevice",
+          "friendlyName": "Mi Body Scale",
+          "mac": "D8:BE:95:F7:0B:1A",
+          "userSex": "M",
+          "userHeight": 180,
+          "userBirthday": "1984-02-14T00:00:00.000Z"
+        }
+      ]
+    }
+  ]
+}
